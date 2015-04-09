@@ -23,3 +23,21 @@ git@heroku.com:evening-taiga-7935.git
 git remote add heroku git@heroku.com:evening-taiga-7935.git
 
 git remote add github https://github.com/jeffyyang/api_jinlin100.git
+
+heroku run node
+
+heroku run bash
+
+定义环境变量
+heroku config:set TIMES=2
+
+
+app.get('/', function(request, response) {
+  var result = ''
+  var times = process.env.TIMES || 5  获取环境变量
+  for (i=0; i < times; i++)
+    result += cool();
+  response.send(result);
+});
+
+
