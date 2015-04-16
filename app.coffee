@@ -46,6 +46,7 @@ else
     key    : 'sid'
   app.use express.static(path.join(__dirname, 'public'))
 
+  console.log 'wx_secret:', path.join(__dirname, 'wx_secret.coffee')
   # ### 安装与使用
   wx = global.wx = new require('wx') \
     require(path.join(__dirname, 'wx_secret.coffee'))
