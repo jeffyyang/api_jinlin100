@@ -1,35 +1,35 @@
 {
-  "name": "node-example",
-  "version": "0.0.0",
-  "description": "",
+  "name": "api_jinlin100",
+  "version": "0.0.1",
+  "private": true,
   "scripts": {
     "start": "coffee ./app.coffee"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jeffyyang/node-example.git"
-  },
+    "url": "https://github.com/jeffyyang/api_jinlin100.git"
+  },  
   "keywords": [
-    "example",
+    "wx",
     "heroku"
   ],
   "author": "jeffyyang",
   "license": "BSD-2-Clause",
   "bugs": {
-    "url": "https://github.com/jeffyyang/node-example/issues"
+    "url": "https://github.com/jeffyyang/node-api_jinlin100/issues"
   },
-  "homepage": "https://github.com/jeffyyang/node-example",
+  "homepage": "https://github.com/jeffyyang/api_jinlin100",  
   "dependencies": {
-    "coffee-script": "1.1.2",
-    "express": "*",
-    "static-favicon": "~1.0.0",
-    "morgan": "~1.0.0",
-    "cookie-parser": "~1.0.1",
     "body-parser": "~1.0.0",
-    "debug": "~0.7.4",
-    "jade": "~1.3.0",
-    "express-session": "~1.2.1",
+    "coffee-script": "^1.9.1",
     "connect-redis": "2.0.0",
-    "redis": "~0.10.3"
+    "cookie-parser": "~1.0.1",
+    "debug": "~0.7.4",
+    "express": "*",
+    "express-session": "~1.2.1",
+    "jade": "~1.3.0",
+    "morgan": "~1.0.0",
+    "redis": "~0.10.3",
+    "static-favicon": "~1.0.0"
   }
 }
